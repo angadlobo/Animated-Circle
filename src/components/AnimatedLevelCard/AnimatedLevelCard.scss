@@ -1,0 +1,190 @@
+.animatedLevelCard-background {
+  padding: 60px 0px 5% 0px;
+  .custom-dot-list-style {
+    bottom: 15px;
+  }
+}
+
+.animatedLevelCard-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.animatedLevelCard-title-h1 {
+  font-size: 38px;
+  padding-bottom: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-family: 'Roboto', Arial, sans-serif !important;
+  font-weight: 300 !important;
+  line-height: 1.2em;
+}
+@media only screen and (max-width: 992px) {
+  .animatedLevelCard-title-h1 {
+    font-size: 27px;
+    text-transform: none !important;
+    padding-bottom: 0px;
+    letter-spacing: 1px;
+  }
+  .animatedLevelCard-subtitle-h5 {
+    font-size: 20px;
+    text-transform: none !important;
+    letter-spacing: 1px;
+  }
+}
+
+.animatedLevelCard-subtitle-h5 {
+  color: #d90e0e;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-family: 'Roboto', Arial, sans-serif !important;
+  font-size: 20px;
+  font-weight: 300 !important;
+}
+.animatedLevelCard-background .container {
+  padding-top: 2%;
+}
+
+.animatedLevelCard-card {
+  height: 70vh;
+  overflow: hidden;
+}
+.animatedLevelCard-card:hover .animatedLevelCard-img {
+  transform: scale(1.2);
+}
+
+.animatedLevelCard-img {
+  background-position: center center;
+  height: 100%;
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+  background-size: cover;
+}
+.animatedLevelCard-flex-card {
+  position: relative;
+  top: -140vh;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.animatedLevelCard-mobile-flex-card {
+  position: relative;
+  top: -70vh;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.animatedLevelCard-h6 {
+  text-align: center;
+  color: #fff;
+  transform: scale(0.9);
+  font-family: 'Roboto', Arial, sans-serif !important;
+  letter-spacing: 0 !important;
+  font-weight: 300 !important;
+  opacity: 0;
+  transition: padding 500ms ease-in-out, font-size 100ms ease-in-out;
+  transition: all ease-in-out 0.5s;
+}
+.animatedLevelCard-h4 {
+  color: #b8b8b8;
+  text-align: center;
+  font-family: 'Roboto', Arial, sans-serif !important;
+  letter-spacing: 0 !important;
+  font-weight: 300 !important;
+  padding-bottom: 10px;
+  transition: padding 500ms ease-in-out, font-size 100ms ease-in-out;
+  transition: all ease-in-out 0.7s;
+}
+
+.animatedLevelCard-h2 {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.1em !important;
+  text-shadow: 0 3px 6px #000000;
+  font-size: 32px !important;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-family: 'Roboto', Arial, sans-serif !important;
+  transition: top padding 500ms ease-in-out, font-size 100ms ease-in-out;
+  transition: all ease-in-out 0.7s;
+  font-weight: 300 !important;
+}
+.animatedLevelCard-mobile-h2 {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.1em !important;
+  text-shadow: 0 3px 6px #000000;
+  font-size: 32px !important;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-family: 'Roboto', Arial, sans-serif !important;
+  transition: top padding 500ms ease-in-out, font-size 100ms ease-in-out;
+  transition: all ease-in-out 0.7s;
+  font-weight: 300 !important;
+}
+
+.animatedLevel-hr-line {
+  transition: all ease-in-out 0.5s;
+  opacity: 1;
+  color: white;
+  background-color: white;
+  height: 1;
+  width: 50%;
+  margin-top: 2;
+  margin-bottom: 2;
+}
+
+.animatedLevelCard-card:hover .animatedLevelCard-h2 {
+  transform: translateY(200%);
+}
+
+.animatedLevelCard-card:hover .animatedLevelCard-h4 {
+  transform: scale(0.2);
+  opacity: 0;
+}
+
+.animatedLevelCard-card:hover .animatedLevelCard-h6 {
+  transform: translateY(65%);
+  opacity: 1;
+}
+
+.animatedLevelCard-card:hover .animatedLevel-hr-line {
+  transform: translateY(5000%);
+  opacity: 0;
+}
+
+.animatedLevelCard-circle {
+  transition: top padding 500ms ease-in-out, font-size 100ms ease-in-out;
+  opacity: 0;
+  height: 200px;
+}
+.animatedLevelCard-card:hover .animatedLevelCard-circle {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.animatedLevelCard-overlay {
+  position: relative;
+  top: -70vh;
+  width: 100%;
+  height: 100%;
+  transition: top padding 500ms ease-in-out, font-size 100ms ease-in-out;
+}
+
+.animatedLevelCard-card:hover .animatedLevelCard-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: scale(100%);
+}
